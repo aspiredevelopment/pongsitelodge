@@ -1,0 +1,32 @@
+.gallery {
+    padding-top: 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .gallery a {
+    margin: 0 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  
+  .rows {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 45px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .rows {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .w-25 {
+      width: auto !important;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

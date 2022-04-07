@@ -1,0 +1,44 @@
+.heading {
+    padding-top: 50px;
+  }
+  
+  .heading h1 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .testimonials {
+    padding: 70px;
+  }
+  
+  .testimonials-card-slot {
+    text-align: center;
+  }
+  
+  .testimonials-card-slot .testimonial-card {
+    margin: 20px 0;
+  }
+  
+  .testimonials-card-slot .testimonial-card h2,
+  .testimonials-card-slot .testimonial-card p {
+    line-height: 2;
+  }
+  
+  @media (max-width: 600px) {
+    .testimonials {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .testimonials-card-slot {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,125 @@
+body::before {
+    content: "";
+    background: url(/images/lodge/hotelViews/balcony-view.jpg);
+    position: absolute;
+    width: 100%;
+    height: 101%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: cover;
+    -webkit-filter: brightness(0.8);
+            filter: brightness(0.8);
+  }
+  
+  .offers-heading {
+    height: 600px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .offers {
+    padding-top: 90px;
+  }
+  
+  .offers h1 {
+    text-align: center;
+  }
+  
+  .offers .offer-package {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 500px;
+    background: url(/images/lodge/hotelViews/balcony-view.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-top: 34px;
+  }
+  
+  .offers .offer-package div {
+    background: whitesmoke;
+    padding: 35px;
+    border-radius: 0 0 0 38px;
+  }
+  
+  .offers .offer-package div ul {
+    width: 465px;
+  }
+  
+  .offers .special {
+    padding-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .offers .special button {
+    margin-top: 23px;
+    border: none;
+    width: 164px;
+    height: 36px;
+    -webkit-filter: drop-shadow(2px 4px 3px black);
+            filter: drop-shadow(2px 4px 3px black);
+  }
+
+  .special h1{
+    text-transform: capitalize;
+  }
+  
+  .footer {
+    margin-top: 170px;
+  }
+  
+  @media (max-width: 600px) {
+    .offers h1 {
+      font-size: 28px;
+    }
+    .offers .offer-package {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: auto;
+      -webkit-box-align: unset;
+          -ms-flex-align: unset;
+              align-items: unset;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin: 0 17px;
+    }
+    .offers .offer-package div {
+      border-radius: 0;
+    }
+    .offers .special {
+      width: auto;
+    }
+    .offers .special h1 {
+      text-transform: capitalize;
+    }
+    .offers .special p {
+      margin: 0 10px;
+      text-align: center;
+    }
+    .footer-container {
+      margin-top: 150px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

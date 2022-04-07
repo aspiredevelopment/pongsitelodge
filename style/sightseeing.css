@@ -1,0 +1,48 @@
+.homeIntro {
+    padding-top: 35px;
+  }
+  
+  .homeIntro h1 {
+    text-align: center;
+  }
+  
+  .sightseeing {
+    padding-top: 25px;
+  }
+  
+  .sightseeing h2 {
+    text-align: center;
+  }
+  
+  .sight-card-slot {
+    padding: 50px;
+  }
+  
+  .sight-card-slot .sight-card {
+    padding: 12px;
+  }
+  
+  .sight-card-slot .sight-card .sight-card-img {
+    width: 400px;
+  }
+  
+  .sight-card-slot h3 {
+    text-align: center;
+  }
+  
+  .sight-card-slot p {
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .sight-card-slot {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .sight-card-slot .sight-card .sight-card-img {
+      width: auto;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

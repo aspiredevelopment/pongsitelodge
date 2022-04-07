@@ -1,0 +1,218 @@
+.superDeluxe {
+    margin: 0 163px;
+    padding-top: 100px;
+  }
+  
+  .superDeluxe .superDeluxe-details {
+    width: 50%;
+  }
+  
+  .superDeluxe .superDeluxe-details h2 {
+    line-height: 2;
+  }
+  
+  .superDeluxe .superDeluxe-details h2 {
+    line-height: 2;
+  }
+  
+  .superDeluxe .superDeluxe-details p {
+    line-height: 2;
+  }
+  
+  .superDeluxe .superDeluxe-img {
+    width: 50%;
+  }
+  
+  .superDeluxe .superDeluxe-img img {
+    display: inline-block;
+    border-radius: 13px;
+  }
+  
+  .roomDescription {
+    margin: 0 163px;
+    padding: 180px;
+  }
+  
+  .roomDescription .description-left {
+    width: 50%;
+    margin-right: 100px;
+  }
+  
+  .roomDescription .description-left .bathroom {
+    width: 341px;
+  }
+  
+  .roomDescription .description-left .parking {
+    width: 356px;
+  }
+  
+  .roomDescription .description-left h2 {
+    text-transform: capitalize;
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left h3 {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left p {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left .amenitites {
+    padding-left: 0em;
+  }
+  
+  .roomDescription .description-left .amenitites li {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 13px;
+  }
+  
+  .roomDescription .description-left .amenitites li ul {
+    padding-left: 0em;
+  }
+  
+  .roomDescription .description-left .amenitites li ul li {
+    list-style-type: none;
+  }
+  
+  .roomDescription .description-left .houseRules {
+    padding-top: 90px;
+  }
+  
+  .roomDescription .description-left .houseRules h3 {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left .houseRules ul li {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left .houseRules .instructions {
+    padding-top: 55px;
+  }
+  
+  .roomDescription .description-left .houseRules .instructions h4 {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left .houseRules .instructions p {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-left .tripGrade {
+    padding-top: 12px;
+  }
+  
+  .roomDescription .description-left .tripGrade h4 {
+    line-height: 1.8;
+  }
+  
+  .roomDescription .description-right {
+    width: 50%;
+  }
+  
+  .roomDescription .description-right p {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-right h2 {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-right h3 {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-right form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .roomDescription .description-right form label {
+    line-height: 2;
+  }
+  
+  .roomDescription .description-right form input {
+    margin: 30px 0;
+    border: none;
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+            filter: drop-shadow(0px 0px 2px black);
+    height: 41px;
+    text-align: center;
+  }
+  
+  .roomDescription .description-right form button {
+    margin: 0 auto;
+    margin-top: 23px;
+    border: none;
+    width: 164px;
+    height: 36px;
+    -webkit-filter: drop-shadow(2px 4px 3px black);
+            filter: drop-shadow(2px 4px 3px black);
+  }
+  
+  .roomDescription .description-right .weather {
+    padding-left: 13px;
+  }
+  
+  .roomDescription .roomheading {
+    padding-top: 76px;
+    text-align: center;
+  }
+  
+  .roomDescription .bestRooms .roomImage img {
+    display: inline-block;
+    border-radius: 9px;
+  }
+  
+  .roomDescription .bestRooms .roomImage div p {
+    padding-left: 17px;
+    padding-top: 11px;
+  }
+  
+  .roomDescription .bestRooms .roomImage div .room-price {
+    padding-top: 0px;
+  }
+  
+  @media (max-width: 600px) {
+    #roomSize {
+      width: 356px;
+    }
+    .superDeluxe {
+      margin: 0 50px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .superDeluxe .superDeluxe-img {
+      width: auto;
+    }
+    .roomDescription {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0 52px;
+      padding: 55px 0 0 0;
+    }
+    .roomDescription .description-left .houseRules h3 {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+    }
+    .roomDescription .description-left .houseRules ul li {
+      width: 251px;
+    }
+    .roomDescription .description-left .houseRules .instructions p {
+      width: 356px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

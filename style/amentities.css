@@ -1,0 +1,199 @@
+body::before {
+    content: '';
+    background: url(/images/lodge/hotelViews/pong-view.2jpg.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .homesection {
+    height: 633px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .homesection h1 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hospitality {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 32px;
+  }
+  
+  .hospitality h3 {
+    line-height: 2;
+  }
+  
+  .hospitality p {
+    margin: 0 101px;
+    text-align: center;
+    line-height: 2;
+    padding-top: 32px;
+  }
+  
+  .cuisine {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-right: 118px;
+    padding-top: 65px;
+  }
+  
+  .cuisine h3 {
+    width: 700px;
+    text-align: center;
+  }
+  
+  .cuisine p {
+    width: 700px;
+    text-align: center;
+  }
+  
+  #refreshments {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-right: 0;
+    padding-left: 65px;
+  }
+  
+  .reservation {
+    margin: 0 81px;
+  }
+  
+  .facilities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 180px;
+  }
+  
+  .facilities p,
+  .facilities h3 {
+    line-height: 2;
+    text-transform: capitalize;
+  }
+  
+  .facilities p {
+    font-size: 20px;
+  }
+  
+  .facilities-img {
+    width: 500px;
+  }
+  
+  .facilities-img img {
+    display: inline-block;
+    border-radius: 13px;
+  }
+  
+  .details {
+    width: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .details button {
+    margin: 35px 0;
+    border: none;
+    -webkit-filter: drop-shadow(0px 1px 3px black);
+            filter: drop-shadow(0px 1px 3px black);
+    width: 204px;
+    height: 40px;
+  }
+  
+  #padding-40 {
+    padding-top: 40px;
+  }
+  
+  .footer-container {
+    margin-top: 225px;
+  }
+  
+  @media (max-width: 600px) {
+    .hospitality h3 {
+      font-size: 27px;
+      text-align: center;
+      font-weight: 900;
+    }
+    .hospitality p {
+      margin: 0 27px;
+    }
+    .cuisine {
+      padding-right: 0;
+      margin: 0 33px;
+      line-height: 2;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-top: 65px;
+    }
+    .cuisine p {
+      padding-top: 21px;
+      width: auto;
+    }
+    #refreshments {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: auto;
+      margin: 0 33px;
+      padding-left: 0px;
+    }
+    #refreshments .cuisine h3 {
+      width: auto;
+      text-align: center;
+    }
+    .cuisine h3 {
+      width: auto;
+      text-align: center;
+    }
+    .facilities h3 {
+      text-align: center;
+    }
+    .reservation {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .reservation .facilities-img {
+      width: 100%;
+    }
+    .reservation .details {
+      width: auto;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
