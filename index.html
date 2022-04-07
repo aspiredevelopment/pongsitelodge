@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/homepage.css">
+    <link rel="stylesheet" href="./style/footer.css">
+
+    <title>Pong Site Lodge</title>
+  </head>
+  <body>
+    <!-- Navigaiton -->
+    <!-- <nav>
+      <div class="navbar flex">
+        <div class="logo flex">
+          <a href="#"><img src="./images/logo.png" alt="" /></a>
+        </div>
+
+        <div class="toggle-btn">
+          <img
+            onclick="toggle()"
+            src="https://img.icons8.com/ios-filled/50/000000/menu-rounded.png"
+          />
+        </div>
+
+        <div id="nav-items" class="nav-items">
+          <ul class="flex">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">THE HOTEL</a></li>
+            <li><a href="#">ROOMS</a></li>
+            <li><a href="#">AMENITIES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">EXPLORE</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="booking-btn"><button>Book Now</button></div>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="logo">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/hotel.html">The Hotel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Rooms
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/html/rooms/superDeluxe.html">Super Deluxe Room</a></li>
+                <li><a class="dropdown-item" href="#">Premimum Room</a></li>
+                <li><a class="dropdown-item" href="#">Suite Room</a></li>
+                <li><a class="dropdown-item" href="#">Family Suite Room</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Amenitites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Sightseeing</a></li>
+                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                <li><a class="dropdown-item" href="#">The Hotel</a></li>
+                <li><a class="dropdown-item" href="#">Offers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contat us</a>
+            </li>
+          </ul>
+          <div class="booking-btn">
+            <button type="button" class="btn btn-outline-success">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- homeSection -->
+    <section>
+      <div class="homeSection-Container flex">
+        <h1 class="line-height">Pong site lodge</h1>
+        <h3 class="line-height">Luxary & Comfy Rooms</h3>
+        <h5 class="line-height">Terrace Restaurant, Bar, Jacuzzi & Spa</h5>
+        <button>View Our Rooms</button>
+      </div>
+    </section>
+
+    <!-- Introduction about Lodge -->
+    <section class="flex introAfterHome">
+      <h3 class="textAlign">Welcome To Pong Site Lodge</h3>
+      <h2 class="textAlign">Best Luxary Hotel in Kangra Near Jawali</h2>
+      <p class="textAlign introAfterHome-para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo adipisci
+        corrupti, nobis dolore pariatur perferendis ducimus commodi, molestiae
+        recusandae tempore incidunt amet minima fuga qui sunt quae vel a odio.
+      </p>
+
+      <p class="textAlign">
+        Hotel Shiva Sanctuary is a leading Hotel with Good View in Mcleodganj
+        that offers rooms with beautiful & picturesque views of snow-capped
+        peaks of the Dhauladhar Mountain Range & the primeval Dharamshala
+        Valley. The Naddi sunset viewpoint is only 800 meters away from the
+        hotel. You can Book Best Hotel in Mcleodganj simply by visiting our
+        website and booking accommodations for your stay. We have streamlined
+        the booking process to ensure your absolute comfort & convenience.
+      </p>
+      <a href="#"><button>Hotel View</button></a>
+    </section>
+
+    <!-- offers -->
+
+    <section class="offers">
+      <div class="row1 flex">
+        <div class="offer-card">
+          <img src="./images/back.png" alt="Detox at SPA" />
+        </div>
+
+        <div class="offer-details flex">
+          <p class="font17 textAlign mobsize">Up To 20% OFF</p>
+
+          <p class="font40 textAlign">
+            Kick off <br />
+            Holidays at <br />
+            Pong Site
+          </p>
+          <button>Book Now</button>
+        </div>
+        <div class="offer-card">
+          <img src="./images/back.png" alt="Detox at SPA" />
+        </div>
+      </div>
+      <div class="row2 flex">
+        <div class="offer-card">
+          <img src="./images/back.png" alt="Detox at SPA" />
+        </div>
+        <div class="offer-card">
+          <img src="./images/back.png" alt="Detox at SPA" />
+        </div>
+        <div class="offer-card">
+          <img src="./images/back.png" alt="Detox at SPA" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms and Suites -->
+    <section class="roomSuites">
+      <div class="roomSuites-heading">
+        <h4 class="textAlign">Discover our stay</h4>
+        <h2 class="textAlign">Rooms & Suites</h2>
+      </div>
+
+      <div class="flex roomCard">
+        <div class="roomCard-img">
+          <img src="./images/back.png" alt="Detox" />
+        </div>
+        <div class="roomCard-details">
+          <h3>Deluxe Rooms</h3>
+          <p class="roomCard-smallinfo">info.......</p>
+          <p class="roomCard-biginfo">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+            blanditiis at doloribus.
+          </p>
+
+          <ul>
+            <li>Free toiletries</li>
+            <li>Shower</li>
+            <li>another data</li>
+          </ul>
+          <hr width="100%" />
+          <div class="flex roomCard-pricing">
+            <p>
+              from <br />
+              $7000
+            </p>
+
+            <a href="#">See Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover More -->
+
+    <section class="discover-section flex">
+      <div class="discover-section-left commonstyle">
+        <p class="textAlign">Our Specials</p>
+        <h2 class="textAlign">
+          beautiful views for memorable <br />
+          experiences
+        </h2>
+      </div>
+
+      <div class="discover-section-right commonstyle">
+        <p>
+          Hotel Shiva Sanctuary has been rated to be the best 4 Star Hotel in
+          Mcleodganj situated amidst the snowcapped peaks of the Dhauladhar
+          range
+
+          <br />
+          air. This place is most suitable for all sorts of adventurous
+          activities, such as trekking, bike riding, paragliding heritage walks,
+          and more.
+        </p>
+        <a href="#"><button>Discover More</button></a>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <!-- <section>GALLERY</section> -->
+
+    <!-- Services -->
+
+    <section class="flex services">
+      <p>SERVICES</p>
+      <h3>Facilities & Services</h3>
+      <div class="services-card flex">
+        <div class="m-lr">
+          <div class="services-card-img">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h4 class="textAlign">Parking Space</h4>
+          <p class="textAlign">
+            Parking space is available within the premises
+          </p>
+        </div>
+        <div class="m-lr">
+          <div class="services-card-img">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h4 class="textAlign">Bar & Dine</h4>
+          <p class="textAlign">
+            Enjoy your favorite drinks & beverages at our all-season bar
+          </p>
+        </div>
+        <div class="m-lr">
+          <div class="services-card-img">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h4 class="textAlign">Hot & Cold Water</h4>
+          <p class="textAlign">
+            Bath tub & Jacuzzi facility makes your stay wonderful
+          </p>
+        </div>
+        <div class="m-lr">
+          <div class="services-card-img">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <h4 class="textAlign">Pick & Drop</h4>
+          <p class="textAlign">
+            We offer easy pick & drop facility from Gaggal Airport
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Maps -->
+
+    <section class="location flex">
+      <p class="textAlign">LOCATE THE Pong Site Lodge</p>
+      <h2 class="textAlign">Locate Pong Site Lodge Hotel in Jawali</h2>
+    </section>
+
+    <!-- hotel image gallery -->
+
+    <section class="image-gallery">
+      <p class="textAlign">Discover Hotel</p>
+      <p class="image-gallery-headline textAlign">ALL Galleries</p>
+      <div class="image-collage flex">
+        <div class="collage-image">
+          <img src="./images/back.jpg" alt="" />
+        </div>
+        <div class="collage-image">
+          <img src="./images/back.jpg" alt="" />
+        </div>
+        <div class="collage-image">
+          <img src="./images/back.jpg" alt="" />
+        </div>
+        <div class="collage-image">
+          <img src="./images/back.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="flex footer-container">
+      <div class="flex footer">
+        <div class="footer-logo"><img src="./images/logo.png" alt="" /></div>
+        <div class="quickLinks">
+          <h3 class="line-height2">Quick links</h3>
+          <p class="line-height">Home</p>
+          <p class="line-height">Our Rooms</p>
+          <p class="line-height">Offers</p>
+        </div>
+
+        <div>
+          <h3 class="line-height2">Address</h3>
+          <p class="line-height">Near Dhamta Road, Kangra</p>
+          <p class="line-height">Kangra, Dhamta,</p>
+          <p class="line-height">Himachal Pradesh 176001</p>
+        </div>
+
+        <div>
+          <h3 class="line-height2">Reservations</h3>
+          <p class="line-height">13456789</p>
+          <p class="line-height">13456789</p>
+          <p class="line-height">13456789</p>
+          <p class="line-height">pongsitelodge@gmail.com</p>
+          <p class="line-height">info@pongsitelodge.com</p>
+        </div>
+
+        <div>facebook insta</div>
+      </div>
+      <div class="hbar flex">
+        <hr width="84%" />
+      </div>
+      <p class="textAlign">Copyright © 2021. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
