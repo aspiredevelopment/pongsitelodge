@@ -13,6 +13,7 @@ body::before {
 
 .homeSection-Container {
   height: 500px;
+
   /* background: #DADDFC;  */
   background-repeat: no-repeat;
   background-size: 100%;
@@ -32,14 +33,28 @@ body::before {
 .homeSection-Container h1 {
   font-size: 5em;
   text-transform: capitalize;
+  font-weight: 600;
+  color: white;
+  font-family: "Noto Sans Display", sans-serif;
+  border-bottom: 1px solid white;
 }
 
 .homeSection-Container h3 {
   font-size: 3em;
+  /* color: wheat; */
+
+  filter: drop-shadow(0px 0px 2px white);
 }
 
 .homeSection-Container h5 {
   font-size: 1.2em;
+  font-weight: bolder;
+  /* color: wheat; */
+  filter: drop-shadow(0px 0px 2px white);
+}
+
+.homeSection-Container p {
+  text-transform: capitalize;
 }
 
 .homeSection-Container button {
@@ -51,6 +66,11 @@ body::before {
   filter: drop-shadow(2px 4px 3px black);
 }
 
+.luxary {
+  font-family: "Beau Rivage", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
 .introAfterHome {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -66,13 +86,15 @@ body::before {
   line-height: 2.2;
   font-size: 1.25em;
   border-bottom: 1px solid;
-  border-bottom-style: ridge;
+  /* border-bottom-style: ridge; */
 }
 
 .introAfterHome h2 {
   line-height: 1.5;
   font-size: 2em;
   font-weight: 900;
+  width: 1000px;
+
   /* width: 298px; */
 }
 
@@ -124,7 +146,7 @@ body::before {
 }
 
 .offer-details button {
-  margin-top: 54px;
+  /* margin-top: 54px; */
   width: 90px;
   height: 35px;
   border: none;
@@ -179,6 +201,10 @@ body::before {
   font-size: 12px;
 }
 
+.roomCard-biginfo {
+  text-align: justify;
+}
+
 .roomCard-details .roomCard-biginfo {
   padding-top: 70px;
 }
@@ -200,6 +226,8 @@ body::before {
 
 .discover-section-right {
   width: 50%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .discover-section-right p {
@@ -272,20 +300,18 @@ body::before {
 
 .location h2 {
   font-size: 35px;
-  
 }
 
-.googlemaps{
+.googlemaps {
   justify-content: center;
 }
-.googlemaps iframe{
+.googlemaps iframe {
   width: 100%;
 }
 
-
 .image-gallery {
   height: 600px;
-  padding-top:300px;
+  padding-top: 300px;
 }
 
 .image-gallery-headline {
@@ -301,6 +327,11 @@ body::before {
   width: 375px;
 }
 
+
+.footer-container{
+  margin-top: 600px;
+  background: linear-gradient(18deg, #2E4C6D, #396EB0);
+}
 @media (max-width: 900px) {
   body::before {
     content: "";
@@ -344,6 +375,10 @@ body::before {
   .introAfterHome p {
     width: auto;
   }
+
+  .introAfterHome h2 {
+    width: auto;
+  }
   .row1,
   .row2 {
     -webkit-box-orient: vertical;
@@ -358,10 +393,9 @@ body::before {
     width: auto;
   }
 
-
- #offer-img:hover {
-  transform: scale(1.1);
-}
+  #offer-img:hover {
+    transform: scale(1.1);
+  }
   .offer-details {
     width: auto;
     background: #daddfc;
@@ -438,11 +472,11 @@ body::before {
     font-size: 2.5vw;
   }
 
-  .googlemaps iframe{
+  .googlemaps iframe {
     margin: 0 10px;
   }
 
-  .image-gallery{
+  .image-gallery {
     padding-top: 416px;
   }
 }
