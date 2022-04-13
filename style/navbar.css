@@ -53,9 +53,12 @@
   }
   
   .dropdown-menu li a {
-    color: #2E4C6D;
+    color: black;
+
+
   }
   
+ 
   .booking-btn button {
     width: 90px;
     height: 35px;

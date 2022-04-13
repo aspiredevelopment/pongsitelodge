@@ -3,7 +3,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 170px;
+    height: auto;
+    background: linear-gradient(18deg, #2E4C6D, #396EB0);
   }
   
   .footer {
@@ -11,10 +12,12 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 10px;
+    
   }
   
   .footer-logo {
     width: 105px;
+    align-items: center;
   }
   
   .hbar {

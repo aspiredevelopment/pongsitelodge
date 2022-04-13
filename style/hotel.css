@@ -20,9 +20,12 @@ body::before {
 }
 
 .hotelHeading h1 {
-  font-size: 4.5rem;
-  font-weight: 200;
+  font-size: 6.5rem;
+  font-weight: 700;
+  font-family: auto;
 }
+
+
 
 .hotelInfo {
   -webkit-box-orient: vertical;
@@ -35,13 +38,21 @@ body::before {
 .hotelInfo h1 {
   text-align: center;
   padding-top: 41px;
+  font-family: auto;
+  font-size: 4em;
 }
+.hotelInfo hr{
+  margin: 0 auto;
+  width: 400px;
 
+}
 .hotelInfo p {
+  padding-top: 30px;
   width: 61%;
   margin: 0 auto;
   font-size: 19px;
   text-align: center;
+  font-family: auto;
 }
 
 .services {
@@ -49,14 +60,14 @@ body::before {
 }
 
 .roomCatalog {
-  width: 100%;
+  width: auto;
   padding-top: 200px;
   margin: 0 53px;
 }
 
 .roomCatalog .roomCatalog-left {
   width: 70%;
-  background: url(../images/lodge/room.jpg);
+  background: url(../public/images/lodge/room.jpg);
   background-repeat: no-repeat;
   height: 627px;
   -webkit-box-orient: vertical;
@@ -112,6 +123,7 @@ body::before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 50%;
 }
 
 .experience-card .image-card {
@@ -130,12 +142,18 @@ body::before {
 
 .experience-card .experience-card-details h4 {
   padding-top: 35px;
+  font-weight: 700;
+}
+.experience-card .experience-card-details h2 {
+  font-size: 3em;
+    font-weight: 700;
 }
 
 .experience-card .experience-card-details p {
   width: 625px;
   text-align: center;
   line-height: 2;
+  font-size: 19px;
 }
 
 .testimonials {
@@ -151,6 +169,9 @@ body::before {
 
 .testimonials h4 {
   line-break: 2;
+  font-size: 3em;
+  font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .testimonials h2 {
@@ -164,7 +185,7 @@ body::before {
 }
 
 .hotelContact {
-  padding-top: 130px;
+  padding-top: 88px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -269,6 +290,9 @@ body::before {
 .services-card p {
   font-size: 14px;
 }
+.services h3{
+  font-size: 6em;
+}
 
 .services-card-img {
   width: 123px;
@@ -309,10 +333,14 @@ body::before {
   width: 375px;
 }
 
+
+
+/* For small screens */
+
 @media (max-width: 900px) {
   body::before {
     content: "";
-    background: url("../images/lodge/lodge.jpg") no-repeat center center/cover;
+    background: url(../public/images/lodge/hotelViews/balcony-view.jpg) no-repeat center center/cover;
     position: absolute;
     -webkit-filter: saturate(1.7) brightness(0.9);
     filter: saturate(1.7) brightness(0.9);
@@ -330,10 +358,24 @@ body::before {
   }
 
   .hotelInfo {
-    padding-top: 150px;
+    padding-top: 71px;
+    font-family: auto;
   }
+  .hotelInfo h1{
+    font-size: 3em;
+  
+    font-family: auto;
+  }
+.hotelInfo hr{
+  width: 265px;
+}
+
+
+
+
+
   .hotelInfo p {
-    padding-top: 15px;
+    padding-top: 39px;
     width: auto;
     margin: 0 14px;
     line-height: 2;
@@ -346,6 +388,7 @@ body::before {
     flex-direction: column;
     width: auto;
     margin: 0 25px;
+    padding-top:75px ;
   }
   .roomCatalog .roomCatalog-left {
     width: auto;
@@ -362,7 +405,8 @@ body::before {
     background: antiquewhite;
     height: 299px;
     border-radius: 178px;
-    margin-top: 28px;
+   
+    margin-top: 68px;
   }
   .experience-card {
     -webkit-box-orient: vertical;
@@ -370,6 +414,7 @@ body::before {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 150px;
+    align-items: center;
   }
 
   .experience-card-second{
@@ -400,7 +445,7 @@ body::before {
     height: 470px;
     padding-top: 30px;
     margin-top: 90px;
-    background: linear-gradient(45deg, #9a4040, transparent);
+    background: linear-gradient(45deg, #daddfc, transparent);
   }
   .testimonials h4,
   .testimonials h2 {
@@ -481,5 +526,11 @@ body::before {
   }
   .services-card p {
     font-size: 2.5vw;
+   
+
+  }
+
+  .services h3{
+    font-size: 3em;
   }
 }

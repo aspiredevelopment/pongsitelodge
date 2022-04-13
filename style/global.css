@@ -19,6 +19,10 @@ img {
   width: 100%;
 }
 
+.auto{
+  font-family: auto;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
