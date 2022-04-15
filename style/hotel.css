@@ -109,6 +109,11 @@ body::before {
   filter: drop-shadow(2px 4px 3px black);
   margin-top: 24px;
 }
+.roomCatalog .roomCatalog-right button:hover {
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
+}
 
 .experience-card {
   padding-top: 100px;
@@ -223,6 +228,11 @@ body::before {
   filter: drop-shadow(2px 4px 3px black);
   margin-top: 24px;
 }
+.hotelContact .hotelContactDetails button:hover {
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
+}
 
 .discover-section {
   height: 500px;
@@ -256,6 +266,11 @@ body::before {
   border: none;
   -webkit-filter: drop-shadow(2px 4px 3px black);
   filter: drop-shadow(2px 4px 3px black);
+}
+.discover-section-right a button:hover {
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
 }
 
 .discover-section-left {
