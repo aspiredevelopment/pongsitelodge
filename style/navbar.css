@@ -47,6 +47,10 @@
     color: #dfe3e7 !important;
     font-size: 19px;
   }
+
+  .dropdown-menu li a{
+    color: black !important ; 
+  }
   
   .nav-item a:hover {
     border-bottom: 2px solid #FC997C;

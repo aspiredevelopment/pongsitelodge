@@ -65,6 +65,11 @@ body::before {
   -webkit-filter: drop-shadow(2px 4px 3px black);
   filter: drop-shadow(2px 4px 3px black);
 }
+.homeSection-Container  button:hover{
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
+}
 
 .luxary {
   font-family: "Beau Rivage", cursive;
@@ -105,6 +110,7 @@ body::before {
   font-weight: 100;
   margin: 0 65px;
 }
+
 
 .introAfterHome button {
   width: 104px;
@@ -154,6 +160,11 @@ body::before {
   -webkit-filter: drop-shadow(2px 4px 3px black);
   filter: drop-shadow(2px 4px 3px black);
 }
+.offer-details button:hover {
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
+}
 
 .roomSuites {
   padding-top: 163px;
@@ -162,12 +173,12 @@ body::before {
 .roomSuites-heading h4 {
   font-size: 3em;
   font-weight: 300;
-  font-family: auto;
+  font-family: serif;
 }
 
 .roomSuites-heading h2 {
   font-size: 6em;
-  font-family: auto;
+  font-family: serif;
   font-weight: 600;
 }
 
@@ -271,6 +282,12 @@ body::before {
   align-items: center;
 }
 
+.services-heading{
+  font-family: serif;
+  font-size: 6em;
+  font-weight: 600;
+}
+
 .services-card {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -304,7 +321,7 @@ body::before {
 
 .location h2 {
   font-size: 35px;
-  font-family: auto;
+  font-family: serif;
   font-weight: 700;
   padding-bottom: 30px;
 }
@@ -377,6 +394,8 @@ body::before {
     z-index: -1;
   }
 
+
+
   .introAfterHome {
     padding-top: 250px;
   }
@@ -386,6 +405,11 @@ body::before {
 
   .introAfterHome h2 {
     width: auto;
+  }
+  .introAfterHome button:hover{
+    background: black;
+    color: #efefef;
+    transform: scale(1.1);
   }
   .row1,
   .row2 {
@@ -412,6 +436,9 @@ body::before {
   .offer-details button {
     margin: 33px 0;
   }
+
+
+
   .mobsize {
     line-height: 3;
   }
@@ -425,7 +452,7 @@ body::before {
   .discover-section .discover-section-left h2 {
     /* font-size: 5vw; */
     font-size: 40px;
-    font-family: auto;
+    font-family: serif;
   }
   .discover-section .discover-section-right {
     width: 100%;
@@ -474,6 +501,12 @@ body::before {
   .services {
     margin-top: 210px;
   }
+
+  .services-heading{
+    font-family: serif;
+    font-size: 3em;
+    font-weight: 600;
+  }
   .m-lr {
     margin: 21px 22px;
   }
@@ -485,22 +518,22 @@ body::before {
     width: 100%;
   }
   .m-lr h4 {
-    font-family: auto;
+    font-family: serif;
   }
   .services-card p {
     font-size: 3.5vw;
-    font-family: auto;
+    font-family: serif;
   }
 
   .location h2 {
     font-size: 4vw;
-    font-family: auto;
+    font-family: serif;
     font-weight: 600;
     margin-bottom: 40px;
   }
 
-  .googlemaps iframe {
-    margin: 0 10px;
+  .googlemaps  {
+    margin: 0 7px;
   }
 
   .image-gallery {
