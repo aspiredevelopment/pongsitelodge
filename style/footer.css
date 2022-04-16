@@ -58,4 +58,21 @@
     padding-top: 22px;
     background: #DADDFC;
   }
+
+  .quickLinks h3{
+    font-family: serif;
+    font-weight: 600;
+  }
+  .address h3{
+    font-family: serif;
+    font-weight: 600;
+  }
+  .resv h3{
+    font-family: serif;
+    font-weight: 600;
+  }
+  .Copyright{
+    font-family: serif;
+    font-weight: 600;
+  }
 }

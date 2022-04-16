@@ -401,6 +401,7 @@ body::before {
   }
   .introAfterHome p {
     width: auto;
+    margin: 0 26px;
   }
 
   .introAfterHome h2 {
@@ -451,7 +452,7 @@ body::before {
   }
   .discover-section .discover-section-left h2 {
     /* font-size: 5vw; */
-    font-size: 40px;
+    font-size: 6vw;
     font-family: serif;
   }
   .discover-section .discover-section-right {
@@ -476,6 +477,9 @@ body::before {
   .roomSuites-heading h2 {
     font-size: 10vw;
     padding-bottom: 44px;
+  }
+  .roomSuites-heading h4{
+    font-size: 2.5em;
   }
   .roomCard {
     -webkit-box-orient: vertical;
@@ -504,7 +508,7 @@ body::before {
 
   .services-heading{
     font-family: serif;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 600;
   }
   .m-lr {
@@ -529,7 +533,7 @@ body::before {
     font-size: 4vw;
     font-family: serif;
     font-weight: 600;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   .googlemaps  {
