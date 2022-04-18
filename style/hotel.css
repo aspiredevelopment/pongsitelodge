@@ -377,7 +377,7 @@ body::before {
     font-family: serif;
   }
   .hotelInfo h1{
-    font-size: 3em;
+    font-size: 2.5em;
   
     font-family: serif;
   }
@@ -430,6 +430,7 @@ body::before {
     flex-direction: column;
     padding-top: 150px;
     align-items: center;
+    margin: 0 5px;
   }
 
   .experience-card-second{
@@ -441,6 +442,11 @@ body::before {
   .experience-card-para{
     padding-top: 40px;
   }
+  .experience-card .experience-card-card{
+width: auto;
+  }
+
+
   .experience-card .experience-card-details h2{
     line-height: 2;
     font-size: 20px;
@@ -457,7 +463,7 @@ body::before {
   .testimonials{
     margin: 0 19px;
     border-radius: 14px;
-    height: 470px;
+    height: 506px;
     padding-top: 30px;
     margin-top: 90px;
     background: linear-gradient(45deg, #daddfc, transparent);
@@ -546,6 +552,8 @@ body::before {
   }
 
   .services h3{
-    font-size: 3em;
+    font-size: 2em;
+    font-family: serif;
+    font-weight: 600;
   }
 }
