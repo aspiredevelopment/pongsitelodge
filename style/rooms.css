@@ -70,6 +70,7 @@
 
 .roomDescription .description-left p {
   line-height: 2;
+  width: 362px;
 }
 
 .roomDescription .description-left .amenitites {
@@ -80,10 +81,12 @@
   list-style-type: none;
   line-height: 2;
   font-size: 13px;
+  text-transform: capitalize;
 }
 
 .roomDescription .description-left .amenitites li ul {
   padding-left: 0em;
+  margin-right:28px ;
 }
 
 .roomDescription .description-left .amenitites li ul li {
@@ -95,7 +98,7 @@
 }
 
 .roomDescription .description-left .houseRules h3 {
-  line-height: 2;
+  line-height: 1;
 }
 
 .roomDescription .description-left .houseRules ul li {
@@ -128,14 +131,19 @@
 
 .roomDescription .description-right p {
   line-height: 2;
+  font-family: serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .roomDescription .description-right h2 {
   line-height: 2;
+  font-family: serif;
 }
 
 .roomDescription .description-right h3 {
   line-height: 2;
+  font-family: serif;
 }
 
 .roomDescription .description-right form {
@@ -168,6 +176,11 @@
   filter: drop-shadow(2px 4px 3px black);
 }
 
+.roomDescription .description-right form button:hover {
+  background: black;
+  color: #efefef;
+  transform: scale(1.1);
+}
 .roomDescription .description-right .weather {
   padding-left: 13px;
 }
@@ -191,6 +204,17 @@
   padding-top: 0px;
 }
 
+#roomCatalog p{
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   #roomSize {
     width: auto;
@@ -211,7 +235,6 @@
   .superDeluxe .superDeluxe-details {
     width: auto;
     margin-bottom: 25px;
-
   }
   .superDeluxe .superDeluxe-details h2 {
     font-size: 2em;
@@ -240,7 +263,7 @@
     padding: 55px 0 0 0;
   }
 
-  .roomDescription .description-left h3{
+  .roomDescription .description-left h3 {
     margin-left: 19px;
   }
 
@@ -260,23 +283,22 @@
     line-height: 1.2;
   }
 
-  .roomDescription .description-left{
+  .roomDescription .description-left {
     width: 100%;
-    }
-  .roomDescription .description-right{
+  }
+  .roomDescription .description-right {
     width: 100%;
-    }
+  }
   .roomDescription .description-left h2 {
     font-size: 3em;
     margin-right: 0;
     text-align: center;
-
   }
-  .roomDescription .description-right form{
+  .roomDescription .description-right form {
     width: 40%;
     margin: 0 auto;
   }
-  .roomDescription .description-right form label{
+  .roomDescription .description-right form label {
     text-align: center;
   }
   .data {
